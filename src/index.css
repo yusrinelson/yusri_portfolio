@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Merienda:wght@300..900&display=swap');
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -589,7 +591,16 @@ body{
 }
 
 *{
+  font-family: "Jura", sans-serif;
   scroll-behavior: smooth;
   /* scrollbar-width: none; */
   overflow: hidden;
+}
+
+.section__header-text{
+  @apply  font-bold text-[2.2rem] p-0 m-0;
+}
+
+.projects__sub-header{
+  @apply mr-5 p-2 bg-black/70 rounded-md;
 }

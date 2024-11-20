@@ -5,6 +5,7 @@ import { ImProfile } from "react-icons/im";
 import { IoMdMail } from "react-icons/io";
 import profile2 from "../../assets/profile2.jpg";
 
+
 export default function Navbar() {
   return (
     <div>
