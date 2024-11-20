@@ -564,3 +564,32 @@ code {
     monospace;
 } */
 
+body{
+  background: linear-gradient(to bottom right, #1A36A8, #0A1542);
+  background-attachment: fixed;
+  padding: 10px;
+  color: #ffffff;
+}
+
+/* navbar */
+.navbar__heading-box{
+  @apply w-[25vw] h-[50px] mt-3 bg-black flex items-center justify-center rounded-md;
+}
+
+.box__color{
+  @apply bg-black/70
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.section__box{
+  @apply box__color w-full h-[95vh] rounded-md mt-4;
+}
+
+*{
+  scroll-behavior: smooth;
+  /* scrollbar-width: none; */
+  overflow: hidden;
+}
