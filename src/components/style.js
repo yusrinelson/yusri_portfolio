@@ -5,5 +5,5 @@ export const layout = {
     sectionHeadText:`text-4xl font-bold inline border-b-4 border-cyan-500 tracking-wider text-white`,
     inputStyle:`mt-4 rounded-md border-2 bg-transparent p-2 text-white focus:outline-none`,
     sectionDisplay:`max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full`,
-    projectButton:" w-fit duration-200 hover:scale-105  w-1/3",
+    projectButton:" w-fit duration-200 hover:scale-105  w-1/3 cursor-pointer",
 }

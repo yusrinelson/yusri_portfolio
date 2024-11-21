@@ -2,7 +2,7 @@ import React from 'react'
 import { layout } from '../style'
 export default function Contact() {
   return (
-    <div className="section__box mb-3">
+    <div className="section__box mb-3" id='contact'>
       <div className='flex justify-center mt-10'>
         <div className="pb-8">
           <p className="text-gray-400 ">get in touch</p>
