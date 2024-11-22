@@ -1,6 +1,5 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-// import { Link, Outlet } from "react-router-dom";
 import { layout } from "../style";
 import { ReactTyped } from "react-typed";
 import profile from "../../assets/profile3.png";
