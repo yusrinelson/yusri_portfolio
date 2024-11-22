@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <div className="flex">
         <Navbar />
-        <div className=" hide-scrollbar ml-[26vw] w-full h-screen overflow-y-scroll">
+        <div className=" hide-scrollbar md:ml-[26vw] w-full h-screen overflow-y-scroll">
           <Home />
           <About />
           <Skills />

@@ -2,9 +2,9 @@ import React from 'react'
 import { layout } from '../style'
 export default function Contact() {
   return (
-    <div className="section__box mb-3" id='contact'>
-      <div className='flex justify-center mt-10'>
-        <div className="pb-8">
+    <div className=" box__color w-full h-fit md:h-[95%] rounded-md mt-4 mb-3" id='contact'>
+      <div className='flex justify-center mt-5'>
+        <div className="pb-4">
           <p className="text-gray-400 ">get in touch</p>
           <p
             className={`section__header-text leading-none`}

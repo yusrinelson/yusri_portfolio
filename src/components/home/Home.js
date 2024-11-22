@@ -9,12 +9,12 @@ import profile from "../../assets/profile3.png";
 export default function Home() {
 
   return (
-    <div className="box__color w-full h-[97vh] flex justify-between rounded-md px-10" id="home">
-    <div className="flex flex-col justify-center" >
+    <div className="box__color w-full h-[97vh] flex justify-between rounded-md md:px-10" id="home">
+    <div className="flex flex-col justify-center " >
       <div className="ml-[5%] h-full flex flex-col justify-center">
-        <h1 className="text-4xl">Hi, I am</h1>
-        <h1 className="text-4xl">Yusri Nelson</h1>
-        <h1 className="text-4xl mb-3 bg-gradient-to-r from-[#44BD03] via-[#00FFF2] to-[#00FFF2] bg-clip-text text-transparent">
+        <h1 className="text-xl md:text-4xl">Hi, I am</h1>
+        <h1 className="text-2xl md:text-4xl">Yusri Nelson</h1>
+        <h1 className="text-xl md:text-4xl mb-3 bg-gradient-to-r from-[#44BD03] via-[#00FFF2] to-[#00FFF2] bg-clip-text text-transparent h-fit">
           <ReactTyped
             strings={["Junior Fullstack Developer", "UI/UX Designer"]}
             typeSpeed={50}
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       
     </div>
-    <div className="flex items-center justify-center">
+    <div className="hidden md:flex items-center justify-center">
           <img
             src={profile}
             alt="profile"

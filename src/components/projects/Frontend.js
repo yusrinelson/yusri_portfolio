@@ -38,7 +38,7 @@ export default function Frontend() {
         {/* View More Overlay */}
         {showDescription !== null && projectId && (
           <div className="fixed top-0 left-0 w-full h-full text-black bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-6 rounded-lg shadow-lg w-[80%] md:w-[50%]">
+            <div className="bg-white  p-2 md:p-6 rounded-lg shadow-lg w-[90%] md:w-[50%]">
               <h2 className="text-xl font-bold mb-4">{projectId.title}</h2>
               <video
                 src={projectId.src}
@@ -47,7 +47,7 @@ export default function Frontend() {
                 onMouseLeave={handleMouseLeave}
                 className="rounded-md duration-200 hover:scale-105 w-full"
               />
-              <p className="mt-4">{projectId.description}</p>
+              <p className="mt-4 text-sm md:text-xl">{projectId.description}</p>
               
               <button
                 className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md"
@@ -59,15 +59,15 @@ export default function Frontend() {
           </div>
         )}
   
-        <div className="flex flex-wrap items-center justify-around px-4">
+        <div className="flex flex-wrap items-center justify-around md:px-4">
           {frontend.map(({ id, src, site, github, title, description }) => (
             <div
               key={id}
-              className="w-[300px] h-[200px] bg-black/70 mb-4 rounded-md shadow-md shadow-gray-600"
+              className=" md:w-[300px] md:h-[200px] bg-black/70 mb-4 rounded-md shadow-md shadow-gray-600"
             >
               {/* <div className="relative"></div> */}
               <div className="flex flex-row h-[80%]">
-                <div className="w-[90%] h-full text-center">
+                <div className="w-[95%] h-full text-center">
                 <video
                 src={src}
                 controls
@@ -89,7 +89,7 @@ export default function Frontend() {
                   </a>
                 </div>
               </div>
-              <div className="w-full h-[20%] text-center flex items-center justify-center bg-gradient-to-r from-[#44BD03] via-[#00FFF2] to-[#00FFF2] text-black font-extrabold">
+              <div className="w-full h-[20%] text-center flex items-center justify-center font-extrabold">
                 {title}
               </div>
             </div>

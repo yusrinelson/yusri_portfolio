@@ -58,7 +58,7 @@ export default function Fullstack() {
                 </div>
             )}
 
-            <div className="flex flex-wrap items-center justify-between px-4">
+            <div className="flex flex-wrap items-center justify-between md:px-4">
                 {fullstack.map(({ id, src, site, github, title, description }) => (
                     <div
                         key={id}
@@ -88,7 +88,7 @@ export default function Fullstack() {
                                 </a>
                             </div>
                         </div>
-                        <div className="w-full h-[20%] text-center flex items-center justify-center bg-gradient-to-r from-[#44BD03] via-[#00FFF2] to-[#00FFF2] text-black font-extrabold">
+                        <div className="w-full h-[20%] text-center flex items-center justify-center font-extrabold">
                             {title}
                         </div>
                     </div>

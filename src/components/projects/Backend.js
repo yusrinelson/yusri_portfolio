@@ -58,11 +58,11 @@ export default function Backend() {
         </div>
       )}
 
-      <div className="flex flex-wrap items-center justify-between px-4">
+      <div className="flex flex-wrap items-center justify-between md:px-4">
         {backend.map(({ id, src, site, github, title, description }) => (
           <div
             key={id}
-            className="w-[300px] h-[200px] bg-black/70 mb-2 rounded-md shadow-md shadow-gray-600 mr-4"
+            className="md:w-[300px] md:h-[200px] bg-black/70 mb-4 rounded-md shadow-md shadow-gray-600"
           >
             {/* <div className="relative"></div> */}
             <div className="flex flex-row h-[80%]">
@@ -88,7 +88,7 @@ export default function Backend() {
                 </a>
               </div>
             </div>
-            <div className="w-full h-[20%] text-center flex items-center justify-center bg-gradient-to-r from-[#44BD03] via-[#00FFF2] to-[#00FFF2] text-black font-extrabold">
+            <div className="w-full h-[20%] text-center flex items-center justify-center font-extrabold">
               {title}
             </div>
           </div>

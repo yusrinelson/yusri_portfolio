@@ -575,7 +575,7 @@ body{
 
 /* navbar */
 .navbar__heading-box{
-  @apply w-[25vw] h-[50px] mt-3 bg-black flex items-center justify-center rounded-md;
+  @apply w-[100%] h-[50px] mt-3 bg-black flex items-center justify-center rounded-md;
 }
 
 .box__color{
@@ -602,5 +602,5 @@ body{
 }
 
 .projects__sub-header{
-  @apply mr-5 p-2 bg-black/70 rounded-md;
+  @apply mr-5 p-2 bg-black/70 w-fit rounded-md;
 }
