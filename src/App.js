@@ -9,6 +9,7 @@ import Skills from './components/skills/Skills';
 import Frontend from './components/projects/Frontend';
 import Backend from './components/projects/Backend';
 import Fullstack from './components/projects/Fullstack';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <About />
           <Skills />
           <Routes>
-          <Route path="/*" element={<Projects />}>
+            <Route path="/*" element={<Projects />}>
               {/* Default Content: Fullstack */}
               <Route index element={<Frontend />} />
               {/* Nested Routes */}
@@ -31,6 +32,7 @@ function App() {
 
           </Routes>
           <Contact />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
