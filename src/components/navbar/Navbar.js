@@ -46,7 +46,7 @@ export default function Navbar() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Yusri-Nelson-Resume.pdf",
+      href: "/Yusri_Nelson_CV.pdf",
       style: "rounded-br-md",
       downlaod: true,
     },
