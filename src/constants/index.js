@@ -38,7 +38,7 @@ export const frontend = [
       id: 2,
       title: "Forevercare",
       src: forevercare,
-      site: "https://forever-care.netlify.app/",
+      site: "https://forevercare01.netlify.app/",
       github: "https://github.com/foreverLoops/forevercare-react.git",
       description:
         "Webapp that allows users to login and book an appointment with a hospital. I have created this with 4 other members using React JS.",
