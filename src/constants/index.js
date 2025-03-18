@@ -9,6 +9,8 @@ import forevercare from "../assets/demo/forevercare.mp4"
 import PLdataset from "../assets/demo/PLdataset.mp4"
 import EMS from "../assets/demo/EMS.mp4"
 import ecoLink from "../assets/demo/ecolink.mp4"
+import adminPortal from "../assets/demo/adminPortal.mp4"
+import clothingStore from "../assets/demo/clothingStore.mp4"
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -115,6 +117,14 @@ export const frontend = [
       description:
         "This is a simple Employment Management System that calculates users' salaries for the month depending on their selected position and the amount of hours worked.",
     },
+    {
+      id: 13,
+      title: "Admin Portal",
+      src: adminPortal,
+      site: "https://admin-fullstack-ecommerce-mern-9v7l9s2my-yusri-nelsons-projects.vercel.app/",
+      github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
+      description: "An admin portal that allows users to add products which is then displayed on the E-commerce store. I have created this using React JS, Node.js, MongoDB and Tailwind CSS.",
+    }
   ];
   
   export const fullstack = [
@@ -123,10 +133,19 @@ export const frontend = [
       title: "Eco-Link",
       src: ecoLink,
       site: "https://e-commerce-project-e24b8.web.app/",
-      github: "https://gitlab.com/foreverloops/e-commerce-final-project",
+      github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
       description:
-        "A Team project we created a platform that allows users to buy/sell services and post to their feed. Techstack used to creat this was react, firebase, node.js",
+        "A Team project we created a platform that allows users to buy/sell services and post to their feed. Techstack used to creat this was react, firebase, node.js ",
     },
+    {
+      id: 12,
+      title: "Clothing Store",
+      src: clothingStore,
+      site: "https://frontend-fullstack-ecommerce-mern-kfp0vevup.vercel.app/",
+      github: "https://github.com/yusrinelson/frontend-fullstack-ecommerce-MERN",
+      description:
+        "This is a responsive clothing store created with React JS, Node.js MongoDB and Tailwind CSS.",
+    }
   ];
   
 
