@@ -24,7 +24,7 @@ import nodeImage from "../assets/node.png";
 import figma from "../assets/figma.png";
 import supabase from "../assets/supabase.png";
 import firebase from "../assets/firebase.png";
-import python from "../assets/python.png";
+// import python from "../assets/python.png";
 import java from "../assets/java.png";
 import vue from "../assets/vue.png";
 
