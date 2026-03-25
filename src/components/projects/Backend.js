@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { BiInfoCircle } from 'react-icons/bi';
-import { BsGithub } from 'react-icons/bs';
-import { FaGlobe } from 'react-icons/fa';
+import React, { useState } from "react";
+import { BiInfoCircle } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
+import { FaGlobe } from "react-icons/fa";
 // import forevercare_img from "../../assets/forevercare_img.png";
 import { backend } from "../../constants/index";
 import { layout } from "../style";
@@ -14,10 +14,13 @@ export default function Backend() {
     const vid = e.target;
     if (!isPlaying) {
       vid.muted = true;
-      vid.play().then(() => setIsPlaying(true)).catch((err) => console.error('Error playing video:', err));
+      vid
+        .play()
+        .then(() => setIsPlaying(true))
+        .catch((err) => console.error("Error playing video:", err));
     }
   };
-  
+
   const handleMouseLeave = (e) => {
     const vid = e.target;
     if (isPlaying) {
@@ -34,7 +37,7 @@ export default function Backend() {
   const projectId = backend.find((item) => item.id === showDescription);
 
   return (
-    <div className=' font-bold'>
+    <div className=" font-bold">
       {/* View More Overlay */}
       {showDescription !== null && projectId && (
         <div className="fixed top-0 left-0 w-full h-full text-black bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -58,24 +61,23 @@ export default function Backend() {
         </div>
       )}
 
-      <div className="flex flex-wrap items-center justify-between md:px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:px-4 pb-4">
         {backend.map(({ id, src, site, github, title, description }) => (
           <div
             key={id}
-            className="md:w-[300px] md:h-[200px] bg-black/70 mb-4 rounded-md shadow-md shadow-gray-600"
+            className="w-full bg-black/70 rounded-md shadow-md shadow-gray-600"
           >
-            {/* <div className="relative"></div> */}
             <div className="flex flex-row h-[80%]">
               <div className="w-[90%] h-full text-center">
-              <video
-              src={src}
-              controls
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              className="duration-200 hover:scale-105 "
-            />
+                <video
+                  src={src}
+                  controls
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                  className="duration-200 hover:scale-105"
+                />
               </div>
-              <div className=" w-[10%] flex flex-col justify-center items-center space-y-4 text-[1.2rem]">
+              <div className="w-[10%] flex flex-col justify-center items-center space-y-4 text-[1.2rem] ">
                 <a href={github} target="_blank" rel="noreferrer">
                   <BsGithub />
                 </a>
@@ -88,7 +90,7 @@ export default function Backend() {
                 </a>
               </div>
             </div>
-            <div className="w-full h-[20%] text-center flex items-center justify-center font-extrabold">
+            <div className="w-full h-[20%] text-center flex items-center justify-center font-extrabold pb-4">
               {title}
             </div>
           </div>

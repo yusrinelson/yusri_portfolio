@@ -5,12 +5,14 @@ import gerichtRestaurant from "../assets/demo/gerichtRestaurant.mp4";
 import hoobank from "../assets/demo/hoobank.mp4";
 import gpt3 from "../assets/demo/gpt3.mp4";
 import connectify from "../assets/demo/connectify.mp4";
-import forevercare from "../assets/demo/forevercare.mp4"
-import PLdataset from "../assets/demo/PLdataset.mp4"
-import EMS from "../assets/demo/EMS.mp4"
-import ecoLink from "../assets/demo/ecolink.mp4"
-import adminPortal from "../assets/demo/adminPortal.mp4"
-import clothingStore from "../assets/demo/clothingStore.mp4"
+import forevercare from "../assets/demo/forevercare.mp4";
+import PLdataset from "../assets/demo/PLdataset.mp4";
+import EMS from "../assets/demo/EMS.mp4";
+import ecoLink from "../assets/demo/ecolink.mp4";
+import adminPortal from "../assets/demo/adminPortal.mp4";
+import clothingStore from "../assets/demo/clothingStore.mp4";
+import simplicityhr from "../assets/demo/simplicityhr.mp4";
+import phuture from "../assets/demo/phuture.png";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -21,133 +23,153 @@ import tailwind from "../assets/tailwind.png";
 import nodeImage from "../assets/node.png";
 import figma from "../assets/figma.png";
 import supabase from "../assets/supabase.png";
-import firebase from "../assets/firebase.png"
-import python from "../assets/python.png"
-import java from "../assets/java.png"
-
+import firebase from "../assets/firebase.png";
+import python from "../assets/python.png";
+import java from "../assets/java.png";
+import vue from "../assets/vue.png";
 
 export const frontend = [
-    {
-      id: 1,
-      title: "Flix Flare",
-      src: flixFlare,
-      site: "https://flixflare.netlify.app/",
-      github: "https://github.com/yusrinelson/flix_flare",
-      description:
-        "I've created a responsive movie web app using the TMDB API which allows users to search for movies, view movie details and watch trailers, incorporating JS, HTML, and CSS. Come and explore the latest movies and TV shows!",
-    },
-    {
-      id: 2,
-      title: "Forevercare",
-      src: forevercare,
-      site: "https://forevercare01.netlify.app/",
-      github: "https://github.com/foreverLoops/forevercare-react.git",
-      description:
-        "Webapp that allows users to login and book an appointment with a hospital. I have created this with 4 other members using React JS.",
-    },
-    {
-      id: 3,
-      title: "Connectify",
-      src: connectify,
-      site: "https://connectify-84e11.web.app/",
-      github: "https://github.com/yusrinelson/connectify",
-      description:
-        "A beautiful responsive social media web app that allows users to register or login and post to their feed using React, Redux, Tailwind, and Firebase.",
-    },
-    {
-      id: 4,
-      title: "Sneaker Store",
-      src: sneakerStore,
-      site: "https://sneaker02store.netlify.app/",
-      github: "https://github.com/yusrinelson/sneaker02store",
-      description:
-        "I have created a sneaker store from scratch using HTML, CSS, and JavaScript. This web app allows you to explore selected sneaker collections as well as adding items to your cart and preview it at checkout.",
-    },
-    {
-      id: 5,
-      title: "Hoobank",
-      src: hoobank,
-      site: "https://hoobank01landing-page.netlify.app/",
-      github: "https://github.com/yusrinelson/modern-bank-app",
-      description:
-        "I have created a responsive modern landing page using React and Tailwind CSS.",
-    },
-    {
-      id: 6,
-      title: "Gericht Restaurant",
-      src: gerichtRestaurant,
-      site: "https://gericht01restaurant.netlify.app/",
-      github: "https://github.com/yusrinelson/gerich-restaurant",
-      description:
-        "This is a responsive restaurant landing page created with React JS.",
-    },
-    {
-      id: 7,
-      title: "Book Connect",
-      src: bookConnect,
-      site: "https://book-connect01.netlify.app/",
-      github: "https://github.com/yusrinelson/Book-connect",
-      description:
-        "This web app comes with a light and dark mode. It allows users to search for books, view book details, and filter books based on author and genre. I have created a responsive web app using HTML, CSS, and JavaScript.",
-    },
-    {
-      id: 8,
-      title: "GPT-3",
-      src: gpt3,
-      site: "https://gpt-landing01page.netlify.app/",
-      github: "https://github.com/yusrinelson/GPT3_landingPage",
-      description: "A responsive modern chatbot landing page created with React JS.",
-    },
-  ];
+  {
+    id: 14,
+    title: "Simplicity HR Solutions",
+    src: simplicityhr,
+    site: "https://simplicityhrsolutions.co.za/",
+    github: "https://github.com/yusrinelson/simplicity",
+    description:
+      "Simplicity HR Solutions helps businesses streamline their HR operations with professional, compliant, and practical services — from recruitment and onboarding to employee relations and policy support.",
+  },
+  {
+    id: 1,
+    title: "Flix Flare",
+    src: flixFlare,
+    site: "https://flixflare.netlify.app/",
+    github: "https://github.com/yusrinelson/flix_flare",
+    description:
+      "I've created a responsive movie web app using the TMDB API which allows users to search for movies, view movie details and watch trailers, incorporating JS, HTML, and CSS. Come and explore the latest movies and TV shows!",
+  },
+  {
+    id: 2,
+    title: "Forevercare",
+    src: forevercare,
+    site: "https://forevercare01.netlify.app/",
+    github: "https://github.com/foreverLoops/forevercare-react.git",
+    description:
+      "Webapp that allows users to login and book an appointment with a hospital. I have created this with 4 other members using React JS.",
+  },
+  {
+    id: 3,
+    title: "Connectify",
+    src: connectify,
+    site: "https://connectify-84e11.web.app/",
+    github: "https://github.com/yusrinelson/connectify",
+    description:
+      "A beautiful responsive social media web app that allows users to register or login and post to their feed using React, Redux, Tailwind, and Firebase.",
+  },
+  {
+    id: 4,
+    title: "Sneaker Store",
+    src: sneakerStore,
+    site: "https://sneaker02store.netlify.app/",
+    github: "https://github.com/yusrinelson/sneaker02store",
+    description:
+      "I have created a sneaker store from scratch using HTML, CSS, and JavaScript. This web app allows you to explore selected sneaker collections as well as adding items to your cart and preview it at checkout.",
+  },
+  {
+    id: 5,
+    title: "Hoobank",
+    src: hoobank,
+    site: "https://hoobank01landing-page.netlify.app/",
+    github: "https://github.com/yusrinelson/modern-bank-app",
+    description:
+      "I have created a responsive modern landing page using React and Tailwind CSS.",
+  },
+  {
+    id: 6,
+    title: "Gericht Restaurant",
+    src: gerichtRestaurant,
+    site: "https://gericht01restaurant.netlify.app/",
+    github: "https://github.com/yusrinelson/gerich-restaurant",
+    description:
+      "This is a responsive restaurant landing page created with React JS.",
+  },
+  {
+    id: 7,
+    title: "Book Connect",
+    src: bookConnect,
+    site: "https://book-connect01.netlify.app/",
+    github: "https://github.com/yusrinelson/Book-connect",
+    description:
+      "This web app comes with a light and dark mode. It allows users to search for books, view book details, and filter books based on author and genre. I have created a responsive web app using HTML, CSS, and JavaScript.",
+  },
+  {
+    id: 8,
+    title: "GPT-3",
+    src: gpt3,
+    site: "https://gpt-landing01page.netlify.app/",
+    github: "https://github.com/yusrinelson/GPT3_landingPage",
+    description:
+      "A responsive modern chatbot landing page created with React JS.",
+  },
+];
+
+export const backend = [
+  {
+    id: 9,
+    title: "Python PL dataset",
+    src: PLdataset,
+    github: "https://github.com/yusrinelson/python_analysis_project",
+    description:
+      "I conducted an analysis to check if home teams have a home advantage when playing other teams in the Premier League. I created this using Python with libraries like numpy, seaborn, and matplotlib.",
+  },
+  {
+    id: 10,
+    title: "Java Employee Management System",
+    src: EMS,
+    github: "",
+    description:
+      "This is a simple Employment Management System that calculates users' salaries for the month depending on their selected position and the amount of hours worked.",
+  },
+  {
+    id: 13,
+    title: "Admin Portal",
+    src: adminPortal,
+    site: "https://admin-fullstack-ecommerce-mern-9v7l9s2my-yusri-nelsons-projects.vercel.app/",
+    github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
+    description:
+      "An admin portal that allows users to add products which is then displayed on the E-commerce store. I have created this using React JS, Node.js, MongoDB and Tailwind CSS.",
+  },
+];
+
+export const fullstack = [
+  {
+    id: 15,
+    title: "Phuture Clothing Store",
+    src: phuture,
+    site: "https://phuture-frontend.vercel.app/",
+    github: "https://github.com/yusrinelson/phuture-frontend",
+    description:
+      "modern Vue 3 e-commerce interface created with Vue.js, Vite, MongoDB, Node.js and Tailwind CSS. This interface is designed to provide a clean, responsive, and scalable shopping experience.",
+  },
+  {
+    id: 11,
+    title: "Eco-Link",
+    src: ecoLink,
+    site: "https://e-commerce-project-e24b8.web.app/",
+    github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
+    description:
+      "A Team project we created a platform that allows users to buy/sell services and post to their feed. Techstack used to creat this was react, firebase, node.js ",
+  },
+  {
+    id: 12,
+    title: "Clothing Store",
+    src: clothingStore,
+    site: "https://frontend-fullstack-ecommerce-mern-kfp0vevup.vercel.app/",
+    github: "https://github.com/yusrinelson/frontend-fullstack-ecommerce-MERN",
+    description:
+      "This is a responsive clothing store created with React JS, Node.js MongoDB and Tailwind CSS.",
+  },
   
-  export const backend = [
-    {
-      id: 9,
-      title: "Python PL dataset",
-      src: PLdataset,
-      github: "https://github.com/yusrinelson/python_analysis_project",
-      description:
-        "I conducted an analysis to check if home teams have a home advantage when playing other teams in the Premier League. I created this using Python with libraries like numpy, seaborn, and matplotlib.",
-    },
-    {
-      id: 10,
-      title: "Java Employee Management System",
-      src: EMS,
-      github: "",
-      description:
-        "This is a simple Employment Management System that calculates users' salaries for the month depending on their selected position and the amount of hours worked.",
-    },
-    {
-      id: 13,
-      title: "Admin Portal",
-      src: adminPortal,
-      site: "https://admin-fullstack-ecommerce-mern-9v7l9s2my-yusri-nelsons-projects.vercel.app/",
-      github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
-      description: "An admin portal that allows users to add products which is then displayed on the E-commerce store. I have created this using React JS, Node.js, MongoDB and Tailwind CSS.",
-    }
-  ];
-  
-  export const fullstack = [
-    {
-      id: 11,
-      title: "Eco-Link",
-      src: ecoLink,
-      site: "https://e-commerce-project-e24b8.web.app/",
-      github: "https://github.com/yusrinelson/admin-fullstack-ecommerce-MERN",
-      description:
-        "A Team project we created a platform that allows users to buy/sell services and post to their feed. Techstack used to creat this was react, firebase, node.js ",
-    },
-    {
-      id: 12,
-      title: "Clothing Store",
-      src: clothingStore,
-      site: "https://frontend-fullstack-ecommerce-mern-kfp0vevup.vercel.app/",
-      github: "https://github.com/yusrinelson/frontend-fullstack-ecommerce-MERN",
-      description:
-        "This is a responsive clothing store created with React JS, Node.js MongoDB and Tailwind CSS.",
-    }
-  ];
-  
+];
 
 export const tech = [
   {
@@ -190,7 +212,7 @@ export const tech = [
     id: 7,
     src: nodeImage,
     title: "Node JS",
-    style: "shadow-green-400",
+    style: "shadow-green-300",
   },
   {
     id: 8,
@@ -210,16 +232,22 @@ export const tech = [
     title: "Firebase",
     style: "shadow-orange-400",
   },
-  {
-    id: 11,
-    src: python,
-    title: "Python",
-    style: "shadow-blue-400",
-  },
+  // {
+  //   id: 11,
+  //   src: python,
+  //   title: "Python",
+  //   style: "shadow-blue-400",
+  // },
   {
     id: 12,
     src: java,
     title: "Java",
     style: "shadow-orange-400",
-  }
+  },
+  {
+    id: 13,
+    src: vue,
+    title: "Vue",
+    style: "shadow-green-400",
+  },
 ];
